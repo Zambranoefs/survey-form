@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+
+/*Ids*/
+
+#number
+{
+  width: 100%;
+  border-radius: 5px;
+  height: 2em;
+  font-family: 'Archivo', sans-serif;
+  font-size: 100%;
+  margin-top: 1.5%;
+}
+
+
+/*Classes*/
+.archivo-font
+{
+  color: white;
+  font-family: 'Archivo', sans-serif;
+}
+.centered
+{
+  display: block;
+  margin: auto;
+}
+
+.input
+{
+  width: 100%;
+  border-radius: 5px;
+  height: 2em;
+  font-family: 'Archivo', sans-serif;
+  font-size: 100%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.italic
+{
+  font-style: italic;
+}
+
+.other-input
+{
+  border-radius: 5px;
+  height: 1.5em;
+  font-family: 'Archivo', sans-serif;
+  font-size: 100%;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+/*Tags*/
+body
+{
+  margin: 5%;
+  background: linear-gradient(35deg, #e62e00, #ff8566);
+  background-attachment: fixed; /*Credits: https://stackoverflow.com/a/2870024*/
+}
+
+button
+{
+  height: 2em;
+  font-size: 100%;
+  border-radius: 5px;
+  background: #ff3300;
+}
+
+form
+{
+  background-color: #661400;
+  padding: 5%;
+  width: 50%;
+  border-radius: 5px;
+  font-size: large;
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+  margin-bottom: 3%;
+  /*Credits: https://stackoverflow.com/a/12294785*/
+}
+
+select
+{
+  width: 101.5%;
+  border-radius: 5px;
+  height: 2em;
+  font-family: 'Archivo', sans-serif;
+  font-size: 100%;
+}
+
+textarea
+{
+  border-radius: 5px;
+  font-family: 'Archivo', sans-serif;
+  font-size: 90%;
+  width: 100%;
+  padding-top: 2%;
+  padding-left: 1%;
+  margin-bottom: 8%;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Streaming services survey form</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+<body class="archivo-font">
+
+    <h1 class="text-center" id="title">STREAMING SERVICES SURVEY FORM</h1>
+
+    <p id="description" class="text-center italic">What are your favorite streaming services? And your favorite TV shows? Please let us know!</p>
+
+    <form action="https://www.example.com" id="survey-form" class="centered">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" class="input" required placeholder="Enter your name">
+
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" class="input" required placeholder="Enter your email">
+
+        <label for="number" id="number-label">How many days a week do you use streaming services?</label>
+        <input type="number" id="number" required placeholder="Days a week" min="0" max="7">
+
+        <p>Which type of device do you mainly use for streaming?</p>
+
+        <select name="device" id="dropdown" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value='blu-ray-player'>Blu-ray player</option>
+            <option value='digital-media-receiver'>Digital media receiver</option>
+            <option value='digital-video-recorder'>Digital video recorder</option>
+            <option value='handheld-game-console'>Handheld game console</option>
+            <option value='set-top-box'>Set-top box</option>
+            <option value='smart-tv'>Smart TV</option>
+            <option value='video-game-console'>Video game console</option>
+        </select>
+
+        <p>Which of these is your favorite streaming service?</p>
+        <!-- Thanks to: https://stackoverflow.com/a/8287947-->
+        <input type="radio" id="amazon-prime-video" name="streaming-service" value="amazon-prime-video" required>
+        <label for="amazon-prime-video">Amazon Prime Video</label><br>
+
+        <input type="radio" id="disney-plus" name="streaming-service" value="disney-plus">
+        <label for="disney-plus">Disney Plus</label><br>
+
+        <input type="radio" id="hbo-max" name="streaming-service" value="hbo-max">
+        <label for="hbo-max">HBO Max</label><br>
+
+        <input type="radio" id="hulu" name="streaming-service" value="hulu">
+        <label for="hulu">Hulu</label><br>
+
+        <input type="radio" id="netflix" name="streaming-service" value="netflix">
+        <label for="netflix">Netflix</label><br>
+
+        <input type="radio" id="youtube-tv" name="streaming-service" value="youtube-tv">
+        <label for="disney-plus">Youtube TV</label><br>
+
+        <p>Which of the following TV series do you like?</p>
+
+        <label for="dark">
+        <input type="checkbox" id="dark" value="dark"> Dark
+        </label><br>
+
+        <label for="game-of-thrones">
+        <input type="checkbox" id="game-of-thrones" value="game-of-thrones" name="tv-series"> Game of thrones
+        </label><br>
+
+        <label for="stranger-things">
+        <input type="checkbox" id="stranger-things" value="stranger-things" name="tv-series"> Stranger Things
+        </label><br>
+
+        <label for="the-big-bang-theory">
+        <input type="checkbox" id="the-big-bang-theory" value="the-big-bang-theory" name="tv-series"> The Big Bang Theory
+        </label><br>
+
+        <label for="the-walking-dead">
+        <input type="checkbox" id="the-walking-dead" value="the-walking-dead" name="tv-series"> The Walking Dead
+        </label><br>
+
+        <label for="westworld">
+        <input type="checkbox" id="westworld" value="westworld"> Westworld
+        </label><br>
+
+        <p>Any other TV shows you really like?</p>
+        <textarea id="others" name="tv-series" placeholder="Tell us about them..." rows="5"></textarea>
+
+        <button type="submit" class="centered archivo-font" id="submit">Submit</button>
+    </form>
+</body>
+</html>
