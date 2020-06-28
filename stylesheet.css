@@ -12,6 +12,13 @@
   margin-top: 1.5%;
 }
 
+@media (max-width: 500px)
+{
+  #survey-form
+  {
+    width: 90%;
+  }
+}
 
 /*Classes*/
 .archivo-font
@@ -60,6 +67,13 @@ body
   margin: 5%;
   background: linear-gradient(35deg, #e62e00, #ff8566);
   background-attachment: fixed; /*Credits: https://stackoverflow.com/a/2870024*/
+}
+@media (max-width: 500px)
+{
+  body
+  {
+    margin: 2%;
+  }
 }
 
 button
